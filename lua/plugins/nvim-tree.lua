@@ -56,7 +56,7 @@ return {
   "nvim-tree/nvim-tree.lua",
   lazy = true,
   keys = {
-    { "<leader>t", "<cmd>lua require('nvim-tree.api').tree.toggle()<CR>", desc = "NvimTree" },
+    { "<leader>tt", "<cmd>lua require('nvim-tree.api').tree.toggle()<CR>", desc = "NvimTree" },
   },
   event = "VeryLazy",
   dependencies = {
